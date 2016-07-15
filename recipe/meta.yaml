@@ -6,8 +6,8 @@ package:
 
 source:
     fn: cmocean-{{ version }}.tar.gz
-    url: https://pypi.io/packages/source/c/cmocean/cmocean-{{ version }}.tar.gz
-    sha256: 4ef81a2b2041628afad983ec67de5d4fd043670a90e416f4cfbffe23c3c9beec
+    url: https://github.com/matplotlib/cmocean/archive/{{ version }}.tar.gz
+    sha256: 22e40329f5fd1c6d2136d7b32dfe988f3b8570a360b86bf9786efb2cb20c9aaa
 
 build:
     number: 0
