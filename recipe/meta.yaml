@@ -7,7 +7,7 @@ package:
 source:
     fn: cmocean-{{ version }}.tar.gz
     url: https://pypi.io/packages/source/c/cmocean/cmocean-{{ version }}.tar.gz
-    sha256: 59799e78cf6f4bbe34afeaadbc8b7e570379ac92c8ad179a03418a1b6d44074d
+    sha256: 4ef81a2b2041628afad983ec67de5d4fd043670a90e416f4cfbffe23c3c9beec
 
 build:
     number: 0
