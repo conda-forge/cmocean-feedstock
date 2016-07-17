@@ -1,4 +1,4 @@
-{% set version = "0.3" %}
+{% set version = "1.0" %}
 
 package:
     name: cmocean
@@ -6,8 +6,8 @@ package:
 
 source:
     fn: cmocean-{{ version }}.tar.gz
-    url: https://pypi.io/packages/source/c/cmocean/cmocean-{{ version }}.tar.gz
-    sha256: 59799e78cf6f4bbe34afeaadbc8b7e570379ac92c8ad179a03418a1b6d44074d
+    url: https://github.com/matplotlib/cmocean/archive/{{ version }}.tar.gz
+    sha256: 22e40329f5fd1c6d2136d7b32dfe988f3b8570a360b86bf9786efb2cb20c9aaa
 
 build:
     number: 0
