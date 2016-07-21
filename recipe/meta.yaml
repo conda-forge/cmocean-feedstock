@@ -5,9 +5,9 @@ package:
   version: {{ version }}
 
 source:
-    fn: cmocean-{{ version }}.tar.gz
-    url: https://github.com/matplotlib/cmocean/archive/{{ version }}.tar.gz
-    sha256: 7f52753cd7cb2a8ccd532dadbce8db149088e27e3ad9b9f05ec9a30b6c12db4c
+  fn: cmocean-{{ version }}.tar.gz
+  url: https://github.com/matplotlib/cmocean/archive/{{ version }}.tar.gz
+  sha256: ccc5aa3e277f7f163ac58a2670326f48310ec5154b1c85d4fb1069d623fdfa20
 
 build:
   number: 0
@@ -35,4 +35,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - kthyng
     - ocefpaf
