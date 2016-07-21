@@ -1,4 +1,4 @@
-{% set version = "1.0" %}
+{% set version = "1.1" %}
 
 package:
     name: cmocean
@@ -7,7 +7,7 @@ package:
 source:
     fn: cmocean-{{ version }}.tar.gz
     url: https://github.com/matplotlib/cmocean/archive/{{ version }}.tar.gz
-    sha256: 22e40329f5fd1c6d2136d7b32dfe988f3b8570a360b86bf9786efb2cb20c9aaa
+    sha256: ccc5aa3e277f7f163ac58a2670326f48310ec5154b1c85d4fb1069d623fdfa20
 
 build:
     number: 0
