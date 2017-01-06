@@ -1,37 +1,38 @@
 {% set version = "1.0" %}
 
 package:
-    name: cmocean
-    version: {{ version }}
+  name: cmocean
+  version: {{ version }}
 
 source:
-    fn: cmocean-{{ version }}.tar.gz
-    url: https://github.com/matplotlib/cmocean/archive/{{ version }}.tar.gz
-    sha256: 22e40329f5fd1c6d2136d7b32dfe988f3b8570a360b86bf9786efb2cb20c9aaa
+  fn: cmocean-{{ version }}.tar.gz
+  url: https://github.com/matplotlib/cmocean/archive/{{ version }}.tar.gz
+  sha256: 22e40329f5fd1c6d2136d7b32dfe988f3b8570a360b86bf9786efb2cb20c9aaa
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - matplotlib
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - matplotlib
 
 test:
-    imports:
-        - cmocean
-    requires:
-        - pytest
+  imports:
+    - cmocean
+  requires:
+    - pytest
 
 about:
-    home: https://github.com/matplotlib/cmocean
-    license: MIT
-    summary: 'Colormaps for Oceanography'
+  home: https://github.com/matplotlib/cmocean
+  license: MIT
+  license_file: LICENSE.txt
+  summary: 'Colormaps for Oceanography'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
+  recipe-maintainers:
+    - ocefpaf
