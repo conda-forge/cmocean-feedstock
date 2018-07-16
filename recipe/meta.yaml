@@ -5,19 +5,18 @@ package:
   version: {{ version }}
 
 source:
-  fn: cmocean-{{ version }}.tar.gz
   url: https://github.com/matplotlib/cmocean/archive/{{ version }}.tar.gz
   sha256: 6f36e1f82d301697e88f157c16c8ac5ce0d6011631bd10c0c7cabd69facb0833
 
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - matplotlib
