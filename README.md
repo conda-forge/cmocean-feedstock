@@ -14,12 +14,15 @@ Summary: Colormaps for Oceanography
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/cmocean-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cmocean-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cmocean-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cmocean-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cmocean/badges/version.svg)](https://anaconda.org/conda-forge/cmocean)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cmocean/badges/downloads.svg)](https://anaconda.org/conda-forge/cmocean)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cmocean-green.svg)](https://anaconda.org/conda-forge/cmocean) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cmocean.svg)](https://anaconda.org/conda-forge/cmocean) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cmocean.svg)](https://anaconda.org/conda-forge/cmocean) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cmocean.svg)](https://anaconda.org/conda-forge/cmocean) |
 
 Installing cmocean
 ==================
