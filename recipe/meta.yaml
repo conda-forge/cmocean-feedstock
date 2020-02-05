@@ -20,6 +20,8 @@ requirements:
   run:
     - python
     - matplotlib-base
+    # colorspacious is imported directly, not a soft optional dep
+    - colorspacious
 
 test:
   imports:
