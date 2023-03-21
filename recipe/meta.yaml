@@ -11,21 +11,28 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.8
+    - setuptools
     - pip
   run:
-    - python
+    - python >=3.8
     - matplotlib-base
+    - numpy
+    - packaging
     # colorspacious is imported directly, not a soft optional dep
     - colorspacious
 
 test:
   imports:
     - cmocean
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/matplotlib/cmocean
