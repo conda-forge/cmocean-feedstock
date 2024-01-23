@@ -1,4 +1,4 @@
-{% set version = "3.0.3" %}
+{% set version = "3.1.3" %}
 
 package:
   name: cmocean
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/c/cmocean/cmocean-{{ version }}.tar.gz
-  sha256: abaf99383c1a60f52970c86052ae6c14eafa84fc16984488040283c02db77c0b
+  sha256: a4599a765e679477323292a8f62631439e16e92c3e5cb4f14c5264fc6d232a10
 
 build:
   number: 0
